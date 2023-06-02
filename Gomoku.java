@@ -1,5 +1,9 @@
 import pkg.*;
 
+interface InputKeyControl {
+    void keyPress(String s);
+}
+
 class Gomoku implements InputKeyControl 
 {
     static Rectangle pieceInd;
